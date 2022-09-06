@@ -1,0 +1,29 @@
+body {
+  background-color: pink;
+  color: white;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button {
+  background: red;
+  color: white;
+  width: 100px;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+#move {
+  left: 200px;
+}
+
+#change:hover {
+  cursor: pointer;
+}
+
