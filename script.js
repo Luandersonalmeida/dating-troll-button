@@ -19,5 +19,5 @@ function clickChangeButton() {
 function changePositionMoveButton() {
   const vertical = Math.floor(Math.random() * window.screen.availHeight) + 1;
   const horizontal = Math.floor(Math.random() * window.screen.availWidth) + 1;
-  move.setAttribute('style', `top: ${vertical}px; left: ${horizontal}px; display: block`);
+  move.setAttribute('style', `top: ${(vertical-30)}px; left: ${(horizontal-100)}px; display: block`);
 }
