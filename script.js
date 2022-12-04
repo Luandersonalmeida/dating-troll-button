@@ -10,7 +10,6 @@ move.addEventListener('mouseover', changePositionMoveButton)
 function clickChangeButton() {
   if (change2.innerText == 'Não') {
     move.setAttribute('style', 'display: none');
-    //change1.setAttribute('style', 'display: none');
     dating.innerText = 'NEM EU! KKKKKKKKKKKKKKKKKKK';
     return;
   }
