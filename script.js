@@ -1,18 +1,20 @@
-const change = document.querySelector('#change');
+const change1 = document.querySelector('#change1');
+const change2 = document.querySelector('#change2');
 const move = document.querySelector('#move');
 const dating = document.querySelector('#dating');
 
-change.addEventListener('click', clickChangeButton)
+change1.addEventListener('click', clickChangeButton)
+change2.addEventListener('click', clickChangeButton)
 move.addEventListener('mouseover', changePositionMoveButton)
 
 function clickChangeButton() {
-  if (change.innerText == 'Sim') {
+  if (change2.innerText == 'Não') {
     move.setAttribute('style', 'display: none');
-    change.setAttribute('style', 'display: none');
-    dating.innerText = 'EEEEEBA, VOCÊ DISSE SIM!';
+    //change1.setAttribute('style', 'display: none');
+    dating.innerText = 'NEM EU! KKKKKKKKKKKKKKKKKKK';
     return;
   }
-  change.innerText = 'Sim';
+  change2.innerText = 'Não';
   move.setAttribute('style', 'display: block');
 }
 
